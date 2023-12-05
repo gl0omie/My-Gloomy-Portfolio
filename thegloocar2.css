@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#57A99D;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #DC914E;
+}
+
+.active {
+  background-color: #FF6B00;
+}
+
+
+body {
+  margin: 0;
+	
+}
+.gpd-header{
+  margin:0;
+	font-family: 'Salbabida Sans Pro 0620';
+font-weight: 400px;
+font-style: normal;
+	font-size: 70px;
+	text-align: center;
+	background-color: #2B6C6F;
+	
+}
+body{
+  background-color:#5E7A83;
+	font-family:'Boucherie Sans';
+	  font-size: 23px;
+	color:#E1ECCA
+	  ;
+}
+#i9h6{
+  text-align:center;
+  color:#E80063;
+}
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#rainbowboi{
+  width:239px;
+  height:320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:inherit;
+  border:7px solid #FFFFFF;
+	float: right;
+}
+#gummy{
+  color:black;
+  width:239px;
+  height:500px;
+  align-content:center;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:inherit;
+  left:150;
+  border:8px solid #FFFFFF;
+	float: center;
+}
+#orange{
+  color:black;
+  width:239px;
+  height:320px;
+  text-align:center;
+  position:inherit;
+  left:200;
+  border:7px solid #FFFFFF;
+	float: left;
+}
+#i6nw{
+  text-align:center;
+  font-size:25px;
+  color:#ba004e;
+}
+

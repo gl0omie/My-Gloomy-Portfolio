@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#E6D8A0;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #DC914E;
+}
+
+.active {
+  background-color: #FF6B00;
+}
+body {
+  margin: 0;
+}
+body{
+  color:#FFF8E9;
+  background-color:#FFAD3F;
+	font-family: "Boucherie Sans Inline";
+	font-size: 30px;
+	text-align: center;
+}
+.header{
+  margin:0;
+}
+.heading--dark-bg{
+  padding-top:50px;
+  padding-right:0px;
+  padding-bottom:50px;
+  padding-left:0px;
+  background-color:rgb(46, 49, 55);
+  text-align:center;
+  color:rgb(204, 204, 204);
+  font-family:Helvetica, serif;
+  font-weight:100;
+border: 7px solid #FFFFFF;
+}
+#iep4y-2{
+  text-transform:uppercase;
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+  letter-spacing:10px;
+  font-weight:500px;
+	font-family: "Sunny Spells";
+	font-size: 60px;
+  margin:0 0 10px 0;
+  border:0 solid #bb3c5a;
+  color:#FFFFFF;
+  background-color:rgba(255,187,104,0.9);
+}
+#i7p3y-2{
+  background-color:rgba(255,214,104,0.71);
+  background-image:url('https://cdn.grapedrop.com/u3f5580fe4af84a1d86253c12f5ecfc33/401f5877ce8b444892ef0f85b04aa76f_img-0926_1.jpg');
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:contain;
+}
+.cnt{
+  padding:0;
+}
+#ist4a{
+  color:#ffffff;
+  letter-spacing:2px;
+}
+#i1ci9{
+  border:0 solid #ee9000;
+  color:#ffffff;
+  text-align:center;
+  letter-spacing:1px;
+}
+#imbyb{
+  color:#ffffff;
+  letter-spacing:1px;
+}
+#i2bon{
+  text-align:center;
+  background-color:#ffb1d5;
+  display:inherit;
+}
+#ignx1{
+  border:0 solid #ee9000;
+  color:#ffffff;
+  text-align:center;
+  letter-spacing:1px;
+}
+
+
+@media (max-width: 1174px){
+}
